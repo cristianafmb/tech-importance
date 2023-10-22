@@ -1,0 +1,30 @@
+{
+  "name": "computer-science",
+  "version": "1.0.0",
+  "private": true,
+  "description": "computer-science",
+  "author": "cristiana baiorte",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^5.12.4",
+    "gatsby-plugin-image": "^3.12.2",
+    "gatsby-plugin-manifest": "^5.12.2",
+    "gatsby-plugin-sass": "^6.12.2",
+    "gatsby-plugin-sharp": "^5.12.2",
+    "gatsby-plugin-sitemap": "^6.12.2",
+    "gatsby-source-filesystem": "^5.12.0",
+    "gatsby-transformer-sharp": "^5.12.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.69.4"
+  }
+}
