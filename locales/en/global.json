@@ -1,0 +1,64 @@
+{
+    "global": {
+        "title": "+ More",
+        "bgMobile": "bg_mobile.svg",
+        "bgMobileAlt": "Menu mobile",
+        "options": [
+            {
+                "title": "Email",
+                "link": "mailto:cbaiorte@gmail.com"
+            },
+            {
+                "title": "Telephone",
+                "link": "tel:+351912992834"
+            }
+        ],
+        "contacts": {
+            "img": "bg_contacts.png",
+            "imgMobile": "bg_footer_mobile.png",
+            "imgFormMobile": "bg_mobile.png",
+            "alt": "Contacts",
+            "title": "Know more",
+            "subtitle": "Let's get in touch",
+            "mobile": {
+                "titleFollow": "Follow in",
+                "titleContatcs": "Contacts",
+                "titleTel": "Phone",
+                "titleTelInfo": "",
+                "titleEmail": "Email",
+                "titlePols": "Privacy Policy"
+            }
+        },
+        "form": {
+            "sucess": {
+                "title": "Sucess!",
+                "subtitle": "Form Submitted.",
+                "description": "Message sent successfully!"
+            },
+            "error": {
+                "title": {
+                    "singluar": "Need to fill in",
+                    "plural": "Left to fill"
+                },
+                "description": "An error has occurred. Please try again later."
+            },
+            "fields": {
+                "name": " Name",
+                "phone": " Phone",
+                "email": " Email",
+                "validEmail": " Valid email",
+                "message": " Message",
+                "polition": {
+                    "singluar": " accept our terms and policies",
+                    "plural": " and accept our terms and policies",
+                    "description": "By sending the newsletter you agree to our terms and conditions and privacy policy.",
+                    "btnText": "Send"
+                }
+            }
+        },
+        "404":{
+            "bg": "bg_404.jpg",
+            "bgAlt": "404 background"
+        }
+    }
+}

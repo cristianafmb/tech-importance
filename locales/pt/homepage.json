@@ -1,0 +1,310 @@
+{
+    "homepage": {
+        "bannerTop": {
+            "desktop": [
+                {
+                    "title": "Eat",
+                    "description": null
+                },
+                {
+                    "title": "Code",
+                    "description": null
+                },
+                {
+                    "title": "Sleep",
+                    "description": null
+                },
+                {
+                    "title": "Repeat",
+                    "description": null
+                }
+            ],
+            "mobile": [
+                {
+                    "title": "Eat",
+                    "description": null
+                },
+                {
+                    "title": "Code",
+                    "description": null
+                },
+                {
+                    "title": "Sleep",
+                    "description": null
+                },
+                {
+                    "title": "Repeat",
+                    "description": null
+                }
+            ],
+            "popup": {
+                "btnText": "See full video",
+                "closeBtn": "map/close_btn.svg"
+            }
+        },
+        "galleryConcept": {
+            "title": " ",
+            "bg": "galleryConcept/bg.svg",
+            "bgMobile": "galleryConcept/bg_mobile.svg",
+            "bgAlt": "Fundo Galeria",
+            "gallery": [
+                {
+                    "title": "It allows you to create things.",
+                    "image": "galleryConcept/1.png",
+                    "imageMobile": "galleryConcept/1.png",
+                    "imageAlt": "It allows you to create things.",
+                    "icon": null,
+                    "iconAlt": null,
+                    "iconTitle": null,
+                    "iconDescription": "Coding is the foundation of the digital world. Everything from websites and apps to video games and artificial intelligence is powered by code. When you learn to code, you are gaining the ability to create anything you can imagine."
+                },
+                {
+                    "title": "It is a creative outlet.",
+                    "image": "galleryConcept/2.png",
+                    "imageMobile": "galleryConcept/2.png",
+                    "imageAlt": "It is a creative outlet",
+                    "icon": null,
+                    "iconAlt": null,
+                    "iconTitle": null,
+                    "iconDescription": "Coding is not just about writing instructions for computers to follow. It is also about designing solutions to problems and coming up with new and innovative ideas. When you code, you are using your creativity to solve problems and build something new."
+                }
+            ]
+        },
+        "galleryGeneral": {
+            "title": "It is a community.",
+            "imgs": [
+                "galleryGeneral/1.png",
+                "galleryGeneral/2.png",
+                "galleryGeneral/3.png"
+            ],
+            "imgsMobile": [
+                "galleryGeneral/1.png",
+                "galleryGeneral/2.png",
+                "galleryGeneral/3.png"
+            ]
+        },
+        "icons": {
+            "title": [
+                "Is important",
+                "to society"
+            ],
+            "bg": "icons_bg.svg",
+            "bgAlt": "Is important to society",
+            "bigImage": "icons/bg.jpg",
+            "bigImageAlt": "Is important to society Background",
+            "btnText": "I have interest",
+            "btnLink": "#form",
+            "formIcon": "form_icon.svg",
+            "formIconAlt": "Form",
+            "icons": [
+                {
+                    "image": "icons/education.svg",
+                    "description": "Education",
+                    "descriptionEn": "Education"
+                },
+                {
+                    "image": "icons/healthcare.svg",
+                    "description": "Healthcare",
+                    "descriptionEn": "Healthcare"
+                },
+                {
+                    "image": "icons/business.svg",
+                    "description": "Business",
+                    "descriptionEn": "Business"
+                },
+                {
+                    "image": "icons/government.svg",
+                    "description": "Government",
+                    "descriptionEn": "Government"
+                },
+                {
+                    "image": "icons/research.svg",
+                    "description": "Research",
+                    "descriptionEn": "Research"
+                }
+            ],
+            "iconsMobile": [
+                [
+                    {
+                        "image": "icons/education.svg",
+                        "description": "Education",
+                        "descriptionEn": "Education"
+                    },
+                    {
+                        "image": "icons/healthcare.svg",
+                        "description": "Healthcare",
+                        "descriptionEn": "Healthcare"
+                    },
+                    {
+                        "image": "icons/business.svg",
+                        "description": "Business",
+                        "descriptionEn": "Business"
+                    }
+                ],
+                [
+                  
+                    {
+                        "image": "icons/government.svg",
+                        "description": "Government",
+                        "descriptionEn": "Government"
+                    },
+                    {
+                        "image": "icons/research.svg",
+                        "description": "Research",
+                        "descriptionEn": "Research"
+                    }
+                ]
+            ]
+        },
+        "galleryInvolvement": {
+            "title": "It's in every industry and sector, and it plays a vital role in our daily lives",
+            "bg": "galleryInvolvement/bg.svg",
+            "bgMobile": "galleryInvolvement/bg_mobile.svg",
+            "bgAlt": "Fundo Galeria Envolvência",
+            "gallery": [
+                {
+                    "title": "Healthcare",
+                    "image": "galleryInvolvement/1.png",
+                    "imageMobile": "galleryInvolvement/1.png",
+                    "imageAlt": "Healthcare",
+                    "icon": "galleryInvolvement/healthcare.svg",
+                    "iconAlt": "to develop new medical devices, software to help doctors diagnose diseases, and design new treatments",
+                    "iconTitle": "",
+                    "iconDescription": "to develop new medical devices, software to help doctors diagnose diseases, and design new treatments"
+                },
+                {
+                    "title": "Education",
+                    "image": "galleryInvolvement/2.png",
+                    "imageMobile": "galleryInvolvement/2.png",
+                    "imageAlt": "Education",
+                    "icon": "galleryInvolvement/education.svg",
+                    "iconAlt": "to develop new educational software and tools that can help students learn more effectively",
+                    "iconTitle": "",
+                    "iconDescription": "to develop new educational software and tools that can help students learn more effectively"
+                },
+                {
+                    "title": "Business",
+                    "image": "galleryInvolvement/3.png",
+                    "imageMobile": "galleryInvolvement/3.png",
+                    "imageAlt": "Business",
+                    "icon": "galleryInvolvement/business.svg",
+                    "iconAlt": "to develop new software applications that can help businesses improve their efficiency and productivity",
+                    "iconTitle": "",
+                    "iconDescription": "to develop new software applications that can help businesses improve their efficiency and productivity"
+                },
+                {
+                    "title": "Government",
+                    "image": "galleryInvolvement/4.png",
+                    "imageMobile": "galleryInvolvement/4.png",
+                    "imageAlt": "Government",
+                    "icon": "galleryInvolvement/government.svg",
+                    "iconAlt": "to develop new government services and infrastructure that can improve the lives of citizens",
+                    "iconTitle": "",
+                    "iconDescription": "to develop new government services and infrastructure that can improve the lives of citizens"
+                },
+                {
+                    "title": "Research",
+                    "image": "galleryInvolvement/5.png",
+                    "imageMobile": "galleryInvolvement/5.png",
+                    "imageAlt": "Research",
+                    "icon": "galleryInvolvement/research.svg",
+                    "iconAlt": "to develop new algorithms and tools that can help researchers advance knowledge in many different fields",
+                    "iconTitle": "",
+                    "iconDescription": "to develop new algorithms and tools that can help researchers advance knowledge in many different fields"
+                }
+            ]
+        },
+        "growth": {
+            "img": "growth/bg_growth.jpg",
+            "imgMobile": "growth/bg_growth.jpg",
+            "alt": "Rapidly growing field",
+            "imgCertificate": "growth/growth.svg",
+            "imgCertificateAlt": "Rapidly growing field",
+            "title": "Rapidly growing field",
+            "description": "Overall, computer science is a rapidly growing field with many advantages. It is a field that is constantly innovating and creating new and improved technologies that are making our lives better in many ways.",
+            "icons": [
+                [
+                    {
+                        "icon": "growth/artificial_intelligence.svg",
+                        "iconText": "Artificial intelligence (AI)"
+                    },
+                    {
+                        "icon": "growth/machine_learning.svg",
+                        "iconText": "Machine learning (ML)"
+                    },
+                    {
+                        "icon": "growth/data_science.svg",
+                        "iconText": "Data science"
+                    }
+                ],
+                [
+                    {
+                        "icon": "growth/cloud_computing.svg",
+                        "iconText": "Cloud computing"
+                    },
+                    {
+                        "icon": "growth/cybersecurity.svg",
+                        "iconText": "Cybersecurity"
+                    },
+                    {
+                        "icon": "",
+                        "iconText": ""
+                    }
+                ]
+            ],
+            "iconsMobile": [
+                [
+                    {
+                        "icon": "growth/artificial_intelligence.svg",
+                        "iconText": "Artificial intelligence (AI)"
+                    },
+                    {
+                        "icon": "growth/machine_learning.svg",
+                        "iconText": "Machine learning (ML)"
+                    }
+                ],
+                [
+                    {
+                        "icon": "growth/data_science.svg",
+                        "iconText": "Data science"
+                    },
+                    {
+                        "icon": "growth/cloud_computing.svg",
+                        "iconText": "Cloud computing"
+                    }
+                ],
+                [
+                    {
+                        "icon": "growth/cybersecurity.svg",
+                        "iconText": "Cybersecurity"
+                    },
+                    {
+                        "icon": "",
+                        "iconText": ""
+                    }
+                ]
+            ]
+        },
+        "quoteSection": {
+            "img": "djikstra.jpg",
+            "imgMobile": "djikstra_mobile.png",
+            "alt": "Edsger W. Dijkstra",
+            "title": "Simplicity is prerequisite for reliability",
+            "description": [
+                "The fact that computer science is not just about the technology itself, but also about the fundamental principles that underlie it. Computer science is a rapidly growing field because it is constantly evolving and adapting to new challenges.",
+                "“Computer science is no more about computers than astronomy is about telescopes.”"
+            ],
+            "descriptionMobile": [
+                "The fact that computer science is not just about the technology itself, but also about the fundamental principles that underlie it. Computer science is a rapidly growing field because it is constantly evolving and adapting to new challenges.",
+                "“Computer science is no more about computers than astronomy is about telescopes.”"
+            ],
+            "iconQuote": "quote_icon.svg",
+            "iconQuoteMobile": "quote_icon_mobile.svg",
+            "iconQuoteAlt": "Citação icon",
+            "person": "Edsger W. Dijkstra",
+            "job": "Computer scientist, programmer and software engineer",
+            "btnText": "Saiba mais",
+            "btnLink": "/"
+        }
+    }
+}

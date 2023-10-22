@@ -1,49 +1,69 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import React, { useRef } from "react"
+import { connect } from 'react-redux'
+import { graphql } from 'gatsby'
+import { useTranslation } from 'gatsby-plugin-react-i18next'
+import { useBreakpoint } from "gatsby-plugin-breakpoints"
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination, Mousewheel } from 'swiper';
 
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
+import Layout from "../components/layout"
+import Seo from "../components/seo"
+import Block404 from "../components/block404"
 
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
+import '../styles/homepage.scss'
 
-const NotFoundPage = () => {
+
+const NotFoundPage = ({ location }) => {
+
+  const marcacaoRef = useRef(null);
+  const breakpoints = useBreakpoint();
+  var mobile = breakpoints.md
+  const { t } = useTranslation()
+
+
   return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry 😔, we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
+    <Layout marcacaoRef={marcacaoRef} mobile={mobile} location={location} dataGlobal={t("global", { returnObjects: true })}>
+
+      <Swiper
+        effect="fade"
+        direction={'vertical'}
+        slidesPerView={1}
+        spaceBetween={0}
+        mousewheel={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Mousewheel, Pagination]}
+        className="mySwiper position-absolute"
+      >
+
+        <SwiperSlide  >
+          <Block404 data={t("global", { returnObjects: true })['404']}/>
+        </SwiperSlide>
+
+      </Swiper>
+    </Layout >
   )
 }
 
-export default NotFoundPage
+export const Head = () => <Seo title="404" />
 
-export const Head = () => <title>Not found</title>
+export default connect()(NotFoundPage)
+
+
+export const QueryHomepagePT = graphql`
+  query($language: String!) {
+    locales: allLocale(filter: { ns: { in: [ "global"] }, language: { eq: $language } }) {
+      edges {
+        node {
+          ns
+          data
+          language
+        }
+      }
+    }
+  }
+`

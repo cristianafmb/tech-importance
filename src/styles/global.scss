@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+
+/** START - import fonts **/
+@font-face {
+    font-family: "fontRegular";
+    src: url("./RedHatDisplay-Regular.ttf") format("truetype");
+}
+
+// USAGE
+.fontRegular {
+    font-family: "fontRegular", sans-serif;
+    font-feature-settings: "lnum";
+}
